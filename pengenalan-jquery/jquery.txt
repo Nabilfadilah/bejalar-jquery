@@ -1,0 +1,3 @@
+jQuery adalah perpustakaan JavaScript yang cepat, kecil, dan kaya fitur. 
+Itu membuat hal-hal seperti traversal dan manipulasi dokumen HTML, penanganan event, animasi, dan Ajax menjadi lebih sederhana dengan API yang mudah digunakan yang bekerja di banyak browser. 
+Dengan kombinasi keserbagunaan dan ekstensibilitas, jQuery telah mengubah cara jutaan orang menulis JavaScript.
