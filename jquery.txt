@@ -1,0 +1,96 @@
+jQuery adalah perpustakaan JavaScript yang cepat, kecil, dan kaya fitur. 
+Itu membuat hal-hal seperti traversal dan manipulasi dokumen HTML, penanganan event, animasi, dan Ajax menjadi lebih sederhana dengan API yang mudah digunakan yang bekerja di banyak browser. 
+Dengan kombinasi keserbagunaan dan ekstensibilitas, jQuery telah mengubah cara jutaan orang menulis JavaScript.
+
+contoh code : (index1.php)
+---------------------------
+
+Cara install, syntax, selectors dan event pada jQuery
+
+//cara install 
+- npm/yarn (package manager) 
+- https://jquery.com/
+- CDN google https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
+
+//syntax
+syntax jquery harus ditulis dalam <script>
+
+$(selector).action() = element html yang kita akan akses via jquery/js
+
+<script>
+    $(selector).action();
+</script>
+
+$(".btn-click").click(function() {
+    $(".kotak").hide();
+});
+
+syntax (best practice)
+$(document).ready(function(){
+    $(selector).action()
+})
+
+atau
+
+$(function(){
+    $(selector).action()
+})
+
+//Selectors
+1. $("*") = all element
+2. $("p")/$("div")/$("span") = selector berupa element
+3. $(".classname") = selector berupa class
+4. $("#idname") = selector berupa id
+5. $("p#test") = selector element dan id
+
+//Events (yang sering digunakan)
+1. Window event => resize, scroll
+2. Mouse events => click, dblclick, hover
+3. Keyword events => keypress, keydown, keyup
+4. Form events => submit, focus, blur
+
+contoh code : (index2.php dan index3.php)
+-----------------------------------------------
+
+JQuery Hide, Show, Toggle
+Kita dapat menyembunyikan element, menampilkan element dan toggle untuk on/off button seperti hide atau Show
+
+contoh code : (index4.php)
+-----------------------------------------------
+
+JQuery FadeIn, FadeOut, FadeToggle dan FadeTo
+Kita dapat menyembunyikan element fadeOut, menampilkan element fadeIn, FadeToggle untuk on/off button seperti hide atau Show, dan fadeTo untuk mengatur opacity
+
+fadeOut = ada animasinya seperti memudar
+fadeIn = ada animasinya seperti memudar dan semakin jelas
+
+contoh code : (index5.php)
+-----------------------------------------------
+
+JQuery Effect SlideUp, SlideDown, SlideToggle
+kita dapat membuat effect seperti menyeret
+
+slideUp = narik menunya ke atas (kaya dropup)
+slideDown = narik menunya ke bawah (kaya dropdown)
+slideToggle = narik menunya ke bawah dan keatas (buka tutup menu) 
+
+contoh code : (index6.php)
+-----------------------------------------------
+
+JQuery Animate
+menjalankan fungsi JavaScript dengan meringkasnya dengan jquery, sebagai libary javascript
+
+contoh code : (index7.php)
+-----------------------------------------------
+
+JQuery get & set text()
+untuk mengganti kan text ketika event trigger berupa buttin di klik
+
+contoh code : (index8.php)
+-----------------------------------------------
+
+JQuery html() get & set content dari suatu element html
+bisa meng set dan meng get dari content yang kita tuju
+
+contoh code : (index9.php)
+-----------------------------------------------
