@@ -94,3 +94,39 @@ bisa meng set dan meng get dari content yang kita tuju
 
 contoh code : (index9.php)
 -----------------------------------------------
+
+JQuery val() get & set nilai dari input kolom
+bisa mendapatkan dan meng set nilai dari form input kolom
+
+contoh code : (index10.php dan index11.php)
+-----------------------------------------------
+
+JQuery append & Prepend
+Menambahkan element baru ke dokumen
+
+contoh code : (index12.php)
+-----------------------------------------------
+
+jquery remove() & empty()
+menghapus element
+
+contoh code : (index13.php)
+-----------------------------------------------
+
+JQuery CSS 
+implementasi css dengan jquery
+
+contoh code : (index14.php)
+-----------------------------------------------
+
+JQuery attr
+Mengakses nilai attr dari suatu element
+atribute dari image itu, ada link, a href, nah a href itu atribute attr ini
+
+contoh code : (index15.php)
+-----------------------------------------------
+
+JQuery addClass & removeClass 
+Memanbah dan menghapus class pada element
+
+contoh code : (index16.php)
